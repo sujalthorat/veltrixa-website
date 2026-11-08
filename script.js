@@ -12,6 +12,8 @@ nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
   menuButton.setAttribute("aria-expanded", "false");
 }));
 
+const BUSINESS_EMAIL = "team.veltrixa.ind@gmail.com";
+
 document.getElementById("year").textContent = new Date().getFullYear();
 
 document.getElementById("contactForm").addEventListener("submit", event => {
